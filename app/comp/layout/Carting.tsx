@@ -133,7 +133,7 @@ const ProductPage = () => {
       {/* upsell section */}
       <div>
 <h3  className="text-center text-black text-xl uppercase pb-16 w-full">YOU MAY ALSO LIKE</h3>
-<ProductGrid viewall={false} heading="" products={products}/>
+<ProductGrid viewall={false} heading=""  seeAll={false} products={products}/>
       </div>
     </>
   );
